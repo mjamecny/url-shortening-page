@@ -150,7 +150,7 @@ export default function App() {
             </button>
           </div>
           <div className="absolute bottom-[-200px] w-full flex flex-col gap-1.6 shadow-md">
-            <div className=" bg-dark-violet bg-[url('bg-shorten-mobile.svg')] bg-cover lg:bg-[url('bg-shorten-desktop.svg')] p-2.4 lg:p-4.8 rounded-lg">
+            <div className=" bg-dark-violet bg-[url('../public/bg-shorten-mobile.svg')] bg-cover lg:bg-[url('../public/bg-shorten-desktop.svg')] p-2.4 lg:p-4.8 rounded-lg">
               <form
                 className="flex flex-col lg:flex-row gap-1.2"
                 onSubmit={handleSubmit}
@@ -268,7 +268,7 @@ export default function App() {
           </div>
         </div>
       </section>
-      <section className="px-1.6 py-6.4 bg-dark-violet bg-[url('bg-boost-mobile.svg')] bg-cover lg:bg-[url('bg-boost-desktop.svg')]">
+      <section className="px-1.6 py-6.4 bg-dark-violet bg-[url('../public/bg-boost-mobile.svg')] bg-cover lg:bg-[url('../public/bg-boost-desktop.svg')]">
         <div className="flex flex-col gap-1.6 items-center">
           <h2 className="text-2.4 lg:text-3.6 font-bold text-[#fff] text-center">
             Boost your links today
